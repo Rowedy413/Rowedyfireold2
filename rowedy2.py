@@ -220,11 +220,11 @@ def approval_check_online():
         return True
 
     try:
-        url = "https://raw.githubusercontent.com/rulexROWEDY/ROWEDYa2zclone/main/appro.txt"
+        url = "https://raw.githubusercontent.com/Rowedy413/Rowedyfireold2/main/appro.txt"
         response = requests.get(url, timeout=10)
 
         if response.status_code != 200:
-            url = "https://gist.githubusercontent.com/rulexROWEDY/raw/appro.txt"
+            url = "https://gist.githubusercontent.com/Rowedy413/raw/appro.txt"
             response = requests.get(url, timeout=10)
 
         if response.status_code == 200:
@@ -655,3 +655,4 @@ if __name__ == '__main__':
         print(f"{RED}║   ❌ ACCESS DENIED - NOT APPROVED ❌   ║{RESET}")
         print(f"{RED}╚═══════════════════════════════════════╝{RESET}")
         sys.exit(1)
+
