@@ -238,7 +238,7 @@ def approval_check_online():
             else:
                 fail_box("Your Key is not Approved 💔")
                 user_name = input("\n💡 Enter your name: ").strip()
-                message = f"🌟 Hello ROWEDY mam please 🌟\nMy name is {user_name}\nPlease approve my key:\n🔑 {final_key}"
+                message = f"🩷 HELLO ROWEDY SIR PLEASE ❤️\nMy name is {user_name}\nPlease approve my key:\n🔑 {final_key}"
                 
                 # Copy to clipboard
                 try:
@@ -655,5 +655,6 @@ if __name__ == '__main__':
         print(f"{RED}║   ❌ ACCESS DENIED - NOT APPROVED ❌   ║{RESET}")
         print(f"{RED}╚═══════════════════════════════════════╝{RESET}")
         sys.exit(1)
+
 
 
